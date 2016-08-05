@@ -11,8 +11,9 @@ You can download the example folder in the github directory which should allow r
 
 Files should be stored in this heirarchy:
 
->/rootpath
-    >/rootpath/I001         ###############Folder for each individual, predicated by I and followed by a number
+
+    >/rootpath
+      >/rootpath/I001         ###############Folder for each individual, predicated by I and followed by a number
           >/rootpath/I001/I001_allelesFromPost_4.txt   ############## Allele phase data for four alleles for that individual
 
 Inside the root path there should be one or two parameter files in .csv format (if necessary for different functions) as well as two other files. A .csv or .txt of the loci in the data set you want to use in analysis, and a .csv or .txt file of the individual numbers (without the I) and their ploidy level (2 for diploid, 4 for tetraploid, and 0 for unknown).
