@@ -1,3 +1,4 @@
+#' @export
 CalcAlleleDiffs <- function(f){
   infoTable <- as.matrix(read.csv(f, header=TRUE))
   BEG1 <- as.numeric(infoTable[1,2])

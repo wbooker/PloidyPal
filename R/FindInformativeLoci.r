@@ -1,3 +1,4 @@
+#' @export
 FindInformativeLoci <- function(outlierThresh, numOutliers, informativeThresh) {
   ######## Function to plot and calculate informative loci based on outlier threshold and difference threshold #####
   

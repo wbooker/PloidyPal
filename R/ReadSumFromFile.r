@@ -1,3 +1,4 @@
+#' @export
 ReadSumFromFile <- function (z){
   ######### Sample Input:
   ######### ReadSumFromFile("/Volumes/P0027_Gerhardt/P0027")

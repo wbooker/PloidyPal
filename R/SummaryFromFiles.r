@@ -1,3 +1,4 @@
+#' @export
 SummaryFromFiles <- function(){
   BEG1 <- as.numeric(infoTable[1,2])
   END1 <- as.numeric(infoTable[2,2])

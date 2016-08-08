@@ -1,3 +1,4 @@
+#' @export
 MakeGraphs <- function(){
   somePDFPath = paste (c(str1,"/PloidyRFiles/Allelegraphs.pdf"), collapse = "")
   pdf(file=somePDFPath)  

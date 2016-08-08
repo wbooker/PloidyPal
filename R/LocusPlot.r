@@ -1,4 +1,5 @@
 ########### function for plotting individual allele distances, colored by ploidy ########
+#' @export
 LocusPlot <- function(x){
   par(mfrow=c(1,1))
   locus <- x

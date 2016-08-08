@@ -1,3 +1,4 @@
+#' @export
 DeterminePloidy <- function(meanThresh, sdThresh, inds){
   ########### Ind x Locus agreement with informative ######################################
   if(missing(inds)){} else {cutMat <- rankMat[1:inds,]}

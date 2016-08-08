@@ -1,3 +1,4 @@
+#' @export
 DipIndex <- function(){
   preInums <- unique(alleleMat[,1])
   tetNums <- array()
