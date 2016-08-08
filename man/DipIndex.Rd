@@ -15,7 +15,3 @@ William Booker}
 
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\examples{
-DipIndex
-}

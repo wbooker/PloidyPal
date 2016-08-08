@@ -34,10 +34,7 @@ William Booker}
 
 
 
-\examples{
-	FindInformativeLoci(outlierThresh = 0.1, numOutliers = 4, informativeThresh = 0.0055)
 
-}
 
 \keyword{ PloidyPal }
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

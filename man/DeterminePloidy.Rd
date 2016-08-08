@@ -27,7 +27,6 @@ infMat is a matrix of all individuals with ploidy level and number of informativ
 \author{
 William Booker, FSU}
 \examples{
-DeterminePloidy(meanThresh = 0.6, sdThresh = 0.7, inds = 12)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

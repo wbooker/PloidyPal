@@ -24,9 +24,6 @@ Third is alleleMat, which is a line by line summary of the other 4 allelic dista
 William Booker, FSU
 }
 
-\examples{
-CheckPloidy("/PloidyParamFile.csv")
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ PloidyPal}

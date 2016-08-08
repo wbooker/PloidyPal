@@ -44,8 +44,5 @@ See github site: https://github.com/wbooker/PloidyPal for examples of parameter 
 
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
-\examples{
-CheckPloidy("/paramFile")
-CalcAlleleDiffs("/paramFile")
-MakeGraphs()
-}
+
+

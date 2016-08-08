@@ -33,10 +33,5 @@ Where the first number is the locus, second is the copy, and third is the allele
 William Booker
 Florida State University Dept. of Biological science
 }
-\examples{
-CalcAlleleDiffs("/CalcParamFile.csv")
-}
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
+
