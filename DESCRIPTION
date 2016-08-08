@@ -9,5 +9,5 @@ Description: PloidyPal completes a number of functions that can assist in
     and polyploid genetic analysis. Primarily, the determination of ploidy level. As of 08/05/2016, only diploid and tetraploid
     datasets are functional. For more info visit https://github.com/wbooker/
     PloidyPal
-License: MIT License copyright 2016 William Booker 
+License: MIT 
 RoxygenNote: 5.0.1
