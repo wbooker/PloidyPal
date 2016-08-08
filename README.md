@@ -7,7 +7,7 @@ PloidyPal completes a number of functions that can assist in and polyploid genet
 
 All data should be stored in a root directory which is referred to throughout use of the program.
 
-You can download the example folder in the github directory which should allow running of an example dataset instantly.
+You can download the example folder in the github directory which should allow running of an example dataset instantly (once the paths are updated in the csv files).
 
 Files should be stored in this heirarchy:
 
@@ -20,7 +20,7 @@ Inside the root path there should be one or two parameter files in .csv format (
 
 As of 08/05/2016, only diploid and tetraploid datasets are functional. 
 
-Currently, the package requires some a priori knowledge of at least a few individuals in the data set. It also only works on Anchored Phylogenomics data simply because that is the format I had available. Tailoring to individual datasets should be relatively easy though, or, you can reformat to the examples shown.
+Currently, the package requires some a priori knowledge of at least a few individuals in the data set. It is currently tailored for  Anchored Phylogenomics data simply because that is the format I had available. Tailoring to individual datasets should be relatively easy though, or, you can reformat to the examples shown.
 
 
 
