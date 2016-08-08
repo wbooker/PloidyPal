@@ -1,0 +1,12 @@
+Var,Ref
+BegNum,1
+EndNum,14
+PloidyLevel,
+FilePath,Insert Path to Example Folder here
+FilesorFolders,
+PrePloidyPath,Insert filepath to a priori ploidy info file (ploidyMat)
+UseRefIn,0
+RefallMatPath,
+RefallDistPath,
+RefPrePloidy,
+LocusRefPath,Insert filepath to csv with list of Loci used
