@@ -154,7 +154,7 @@ DipIndex <- function(){
 	tetNums <- array()
 	dipNums <- array()	
 	for(i in 1:length(preInums)){
-		rowRef <- which(grepl(paste(c("^I",preInums[i],"$"), collapse = "") info$Individual))
+		rowRef <- which(grepl(paste(c("^I",preInums[i],"$"), collapse = ""), info$Individual))
 		if (info$PrePloidy[rowRef]==4){
 		tetNums <- c(tetNums, preInums[i])
 		}
