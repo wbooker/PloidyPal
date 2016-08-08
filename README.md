@@ -1,7 +1,7 @@
 # PloidyPal
 R Package and Files for polyploid analysis
 
-Install from CRAN or GitHubvthrough install.packages("PloidyPal") or install_github("PloidyPal") with devtools
+Install in R by running install_github("wbooker/PloidyPal") with devtools package installed 
 
 PloidyPal completes a number of functions that can assist in and polyploid genetic analysis. Mainly, it helps determine the ploidy level of individuals in a dataset using allele phase data. It can also give a rough estimate of the level of diploidization that has occured at each locus for each individual. The data required are individual .txt files of phased alleles for individuals--with 4 phased alleles for individuals regardless of ploidy level. This is cruicial to the functioning of the program.
 
