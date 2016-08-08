@@ -78,7 +78,7 @@ for (i in BEG1:END1){
 		dat <- read.table(filePath)	
 		matLen <- length(dat[,7])/6
 		valuesMat <- matrix(ncol=5)
-		rowRef <- which(grepl(paste(c("^",iNum,"$") collapse = ""), info$Individual))
+		rowRef <- which(grepl(paste(c("^",iNum,"$"), collapse = ""), info$Individual))
 		alleleCounter <- 1
 		for (j in 1:matLen){
 			if(dat[(alleleCounter),1] <= testLoci[length(testLoci)] & dat[(alleleCounter),1] %in% testLoci){
