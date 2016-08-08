@@ -1,7 +1,7 @@
 CheckPloidy <- function(f){
 infoTable <- as.matrix(read.csv(f, header=TRUE))
 assign("infoTable",infoTable,globalenv())
-#SummaryFromFiles()
+SummaryFromFiles()
 }
 
 
@@ -78,7 +78,7 @@ for (i in BEG1:END1){
 		dat <- read.table(filePath)	
 		matLen <- length(dat[,7])/6
 		valuesMat <- matrix(ncol=5)
-		rowRef <- which(grepl(iNum, info$Individual))
+		rowRef <- which(grepl(paste(c("^",iNum,"$") collapse = ""), info$Individual))
 		alleleCounter <- 1
 		for (j in 1:matLen){
 			if(dat[(alleleCounter),1] <= testLoci[length(testLoci)] & dat[(alleleCounter),1] %in% testLoci){
@@ -154,7 +154,7 @@ DipIndex <- function(){
 	tetNums <- array()
 	dipNums <- array()	
 	for(i in 1:length(preInums)){
-		rowRef <- which(grepl(preInums[i], info$Individual))
+		rowRef <- which(grepl(paste(c("^I",preInums[i],"$"), collapse = "") info$Individual))
 		if (info$PrePloidy[rowRef]==4){
 		tetNums <- c(tetNums, preInums[i])
 		}
@@ -398,7 +398,7 @@ totalsMat <- matrix(nrow=length(individuals),ncol=3)
 for (i in 1:length(individuals)){
 	tempMeanSum <- 0
 
-	rowRef <- which(grepl(individuals[i], info$Individual))
+	rowRef <- which(grepl(paste(c("^I",individuals[i],"$"), collapse = ""), info$Individual))
 
 	tSum <- 0
 	fSum <- 0
