@@ -1,8 +1,6 @@
-\name{CheckPloidy}
-\alias{CheckPloidy}
-%- Also NEED an '\alias' for EACH other topic documented here.
+\name{SummaryFromFiles}
 \title{
-Check Polyploid Info From Files
+Get Summary of Allele Info from Files
 }
 \description{
 Gathers and summarizes allelic distance info from all _allelesFromPost_4_diffs.txt files and summarizes them into a few tables. One is allDistancesMat, which is a locus by individual matrix with the mean of the two smallest allelic distances per individual per locus. \cr \cr
@@ -16,7 +14,7 @@ Third is alleleMat, which is a line by line summary of the other 4 allelic dista
 }
 
 \note{
-	Most of the function is run through the SummaryFromFiles function that takes the filepath this is given. \cr \cr
+	SummaryFromFiles(file)
 	The filepath is to a paramfile .csv find a template and example at https://github.com/wbooker/PloidyPal
 }
 
