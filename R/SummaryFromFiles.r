@@ -1,5 +1,7 @@
 #' @export
-SummaryFromFiles <- function(){
+SummaryFromFiles <- function(file){
+  infoTable <- as.matrix(read.csv(file, header=TRUE))
+  assign("infoTable",infoTable,globalenv())
   BEG1 <- as.numeric(infoTable[1,2])
   END1 <- as.numeric(infoTable[2,2])
   str1 <- toString(infoTable[4,2])
