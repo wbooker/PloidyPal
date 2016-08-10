@@ -26,7 +26,7 @@ Currently, the package requires some a priori knowledge of at least a few indivi
 
 CalcAlleleDiffs() takes files with 4 alleles per locus and calculates the differences between alleles for all alleles at all loci for each individual. These data are then stored in text files that is used for many more analyses. 
 
-CheckPloidy() summarizes all allele distance info into global matrices and .csv files for further analysis. 
+SummaryFromFiles() summarizes all allele distance info into global matrices and .csv files for further analysis. 
 
 FindInformativeLoci() uses the info from CheckPloidy() to find which loci are informative based on some previously known individuals. 
 
