@@ -6,6 +6,8 @@ CalcAlleleDiffs <- function(f){
   str1 <- toString(infoTable[4,2])
   
   for(j in BEG1:END1){
+    if (file.exists(filePath) == TRUE){
+    
     filePath <- paste(c(str1,"/I",j,"/I",j,"_allelesFromPost_4.txt"), collapse = "")	
     outFilePath <- paste(c(str1,"/I",j,"/I",j,"_allelesFromPost_4_diffs.txt"), collapse = "")	
     outTable <- matrix(nrow = 1, ncol = 8)	
@@ -31,6 +33,11 @@ CalcAlleleDiffs <- function(f){
     outTable <- outTable[2:length(outTable[,1]),]
     write.table(outTable,file = outFilePath, quote = FALSE, sep = "\t", row.names = FALSE, col.names = FALSE)
     print(j)
+    
+    }
+    else {
+     print(paste(c("I",j," FILE NOT FOUND"), collapse = ""), quote = FALSE)
+    }
     
   }
   assign("infoTable",infoTable,globalenv())
