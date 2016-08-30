@@ -8,6 +8,7 @@ CalcAlleleDiffs <- function(f){
   for(j in BEG1:END1){
     filePath <- paste(c(str1,"/I",j,"/I",j,"_allelesFromPost_4.txt"), collapse = "")	
     if (file.exists(filePath) == TRUE){
+    print("frig")
     outFilePath <- paste(c(str1,"/I",j,"/I",j,"_allelesFromPost_4_diffs.txt"), collapse = "")	
     outTable <- matrix(nrow = 1, ncol = 8)	
     k <-scan(filePath, sep = ">", what = "complex")	
