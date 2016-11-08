@@ -36,7 +36,6 @@ MakeGraphs() graphs allelic distances for the two least smallest distances for e
 
 DipIndex() calculates the relative levels of diploidization at each locus for each individual and stores this information in a .csv file. This can be useful for downstream analyses. This is currently untested and most likely uninformative at the moment.
 
-
-If you would like to use this package on your data, you can either get everything into the correct compatable filetypes and formats which should allow you to run it instantly, or, you can email wbooker14@gmail.com to request tailoring the package to work with your files. Availability for this is unknown and dependent on how much your data deviate from the example, but I will try to work on these when I can. 
+for questions or inquiry on collaborations, email wbooker14@gmail.com
 
 -William Booker
